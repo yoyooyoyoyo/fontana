@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폰타나, 이탈리아를 기억하다</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="IMG/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="slick.css" type="text/css">
+    <link rel="stylesheet" href="slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="slick.js"></script>
+    <script>
+        $(function(){
+            $(".sub").hide();
+            $(".top1").mouseover(function(){
+                $(".sub1").slideDown();
+                $(".sub2").hide();
+                $(".sub3").hide();
+                $(".sub4").hide();
+            });
+            $(".top1").mouseleave(function(){
+                $(".sub1").hide();
+            });
+            $(".top2").mouseover(function(){
+                $(".sub1").hide();
+                $(".sub2").slideDown();
+                $(".sub3").hide();
+                $(".sub4").hide();
+            });
+            $(".top2").mouseleave(function(){
+                $(".sub2").hide();
+            });
+            $(".top3").mouseover(function(){
+                $(".sub1").hide();
+                $(".sub2").hide();
+                $(".sub3").slideDown();
+                $(".sub4").hide();
+            });
+            $(".top3").mouseleave(function(){
+                $(".sub3").hide();
+            });
+            $(".top4").mouseover(function(){
+                $(".sub1").hide();
+                $(".sub2").hide();
+                $(".sub3").hide();
+                $(".sub4").slideDown();
+            });
+            $(".top4").mouseleave(function(){
+                $(".sub4").hide();
+            });
+            $('.demo').slick({
+                dots: false,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                touchMove: false
+            });
+            $(".topbutton").click(function(){
+                $("html,body").animate({scrollTop:0})
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <nav>
+                <div class="login">
+                    <ul>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">JOIN</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="IMG/logo-white.png" alt="폰타나 로고">
+                    </a>
+                </div>
+                <div class="topmenu">
+                    <ul>
+                        <li class="top1">
+                            <a href="#">BRAND STORY</a>
+                            <div class="sub1">
+                                <ul>
+                                    <li><a href="#">브랜드 로고</a></li>
+                                    <li><a href="#">브랜드 스토리</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="top2">
+                            <a href="#">PROMOTION</a>
+                            <div class="sub2">
+                                <ul>
+                                    <li><a href="#">MAGAZINE</a></li>
+                                    <li><a href="#">TV CF</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="top3">
+                            <a href="#">RECIPE</a>
+                            <div class="sub3">
+                                <ul>
+                                    <li><a href="#">RECIPE</a></li>
+                                    <li><a href="#">ACADEMIE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="top4">
+                            <a href="#">PRODUCT</a>
+                            <div class="sub4">
+                                <ul>
+                                    <li><a href="#">DRESSING</a></li>
+                                    <li><a href="#">BALSAMIC</a></li>
+                                    <li><a href="#">OIL</a></li>
+                                    <li><a href="#">SOUP</a></li>
+                                    <li><a href="#">STEAK SAUCE</a></li>
+                                    <li><a href="#">OIL SAUCE</a></li>
+                                    <li><a href="#">TOMATO SAUCE</a></li>
+                                    <li><a href="#">CREAM SAUCE</a></li>
+                                    <li><a href="#">PASTA</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="top5">
+                            <a href="#">SHOP</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>            
+            <div class="mainframe">
+                <ul>
+                    <li class="v1">
+                        <a href="#"></a>
+                    </li>
+                    <li class="v2">
+                        <a href="#"></a>
+                    </li>
+                    <li class="v3">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>   
+        </header>
+        <section>
+            <div class="news">
+                <div class="event">
+                    <p>EVENT</p>
+                    <div class="eventimg"><!--여기에다가 가로 값주고 position relative-->
+                        <!--<div class="black20"></div> 여기에다가 position absolute--> <!--나는 이번홈페이지에는 불투명효과를 코딩으로 줄 필요는 없음 그래서 css에서 뺐음-->   
+                        <div class="eventp">
+                            <a href="#">
+                                <h3>포착! 다니엘 헤니!</h3>
+                                <p>TV CF속 다니엘 헤니의 모습을<br>해쉬태그 #폰타나다니엘 로 올려주세요!</p>
+                                <p>10명을 선정해 다니엘 헤니와의 프라이빗한<br>저녁식사에 초대합니다!</p>
+                                <p>2021. 05. 01 - 06. 01</p>
+                            </a>
+                        </div>
+                        <div class="eventccover"><div class="eventcover"><a href="#" class="eventright"><img src="IMG/add-white.png" alt="더보기"></a></div></div>
+                    </div>
+                </div>
+                <div class="bs">
+                    <a href="#">
+                        <div class="black20"></div>
+                        <div class="bsp">
+                            <a href="#">
+                                <p>BRAND STORY</p>
+                                <p>한병의 파스타 소스로 이탈리아를 느껴보세요.</p>
+                            </a>
+                        </div>
+                        <div class="bbspcover"><div class="bspcover"><a href="#" class="bspright"><img src="IMG/add-white.png" alt="더보기"></a></div></div>
+                    </a>   
+                </div>
+                <div class="pt">
+                    <p>PROMOTION</p>
+                    <div class="ptimgleft">
+                        <div class="black20"></div>
+                        <div class="ptp">
+                            <a href="#">
+                                <h3>TV CF 30S</h3>
+                                <p>다니엘 헤니 TV 광고</p>
+                            </a>    
+                        </div>
+                        <div class="ptlcover"><div class="ptlpcover"><a href="#" class="ptlright"><img src="IMG/add-white.png" alt="더보기"></a></div></div>
+                    </div>
+                    <div class="ptimgright">
+                        <div class="black20"></div>
+                        <div class="ptp">
+                            <a href="#">
+                                <h3>잡지 지면 화보</h3>
+                                <p>우먼 센스</p>
+                            </a>
+                        </div> 
+                        <div class="ptlcover"><div class="ptlpcover"><a href="#" class="ptlright"><img src="IMG/add-white.png" alt="더보기"></a></div></div>  
+                    </div>
+                </div>
+                <div class="ptreview">
+                    <p>PRODUCT REVIEW</p>
+                    <div class="ptreviewleft">
+                        <img src="IMG/fontanareview1.jpeg" alt="리뷰1">
+                        <div class="ptrp">
+                            <a href="#">신상 포켓수프의 간편함</a>
+                        </div>
+                    </div>
+                    <div class="ptreviewright">
+                        <img src="IMG/fontanareview2.jpeg" alt="리뷰2">
+                        <div class="ptrp">
+                            <a href="#">다이어트의 동반자!</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="bp">
+                <div class="bpt"><h1>BEST PRODUCT</h1></div>
+                <div class="slider demo">
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best1.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        
+                        <div class="bpp">
+                            <a href="#">TOOWOOMBA ROASTED MUSHROOM CREAM</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best2.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">BBQ CHICKEN & RIB</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best3.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">FONTANA VARIETY PACK</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best4.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">BALSAMIC GLAZE</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best5.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">BALSAMIC VINEGAR</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best6.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">BALSAMIC VINEGAROLIVE OIL</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best7.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">BROCCOLI CHEDDAR SOUP</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/best8.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="bpp">
+                            <a href="#">ITALIA CAMPANIA PASTA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <ul>
+                    <li><img src="IMG/logo1.png" alt="폰타나로고"></li>
+                    <li>맛으로 떠나는 이탈리아 여행<br>유럽 정통의 맛, 폰타나</li>
+                </ul>
+            </div>
+            <div class="np">
+                <div class="npt"><h1>NEW PRODUCT</h1></div>
+                <div class="slider demo">
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new1.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">FRENCH ORANGE DRESSING</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new2.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">CREAMY PEPPER SAUCE</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new3.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">WHOLE GRAIN MUSTARD</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new4.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">ROASTED BEEF SOUP</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new5.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">GREEK PLAIN YOGURT</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new6.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">CLASSIC FRENCH STEAK SAUCE</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new7.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">VENEZIA VONGOLE</a>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <div class="photo1">
+                            <img src="img/new8.png" alt="">
+                            <a href="#" class="overWrap"><div class="over"><img src="IMG/add-white.png" alt="더보기"></div></a>
+                        </div>
+                        <div class="npp">
+                            <a href="#">BALSAMIC GLAZE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ccfc">
+                <div class="cc">
+                    <p>COOKING CLASS</p>
+                    <div class="ccimg">
+                        <div class="ccp">
+                            <a href="#" class="ccpleft">
+                                <h3>HOW TO MAKE PASTA</h3>
+                                <p>파스타 면부터 소스까지<br>하나하나 만들어 보는 파스타 세션!</p>
+                                <p>수업료: 5.0</p>
+                                <p>수업날짜: 2021. 05. 22. 4PM </p>
+                                <p>위치: 폰타나 강남 쿠킹 스튜디오</p>
+                            </a>
+                            <div class="cccover"><div class="ccover"><a href="#" class="ccpright"><img src="IMG/add-white.png" alt="더보기"></a></div></div>    
+                        </div>  
+                    </div>
+                </div>
+                <div class="fc">
+                    <p>FONTANA COLLABORATION</p>
+                    <div class="fcimg">   
+                        <div class="fcp">
+                            <a href="#" class="fcpleft">
+                                <h3>FONTANA WITH JOSEPH</h3>
+                                <p>컨템포러리 한식을 이끄는 조셉 리저우드와<br>폰타나와의 만남</p>
+                                <p>2021. 05. 22 - 2021. 06. 20</p>
+                                <p>압구정 ‘에빗’에서 만나요!</p>
+                            </a>
+                            <div class="ffcover"><div class="fcover"><a href="#" class="fcpright"><img src="IMG/add-white.png" alt="더보기"></a></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="flogo">
+                <img src="IMG/logo-white.png" alt="">
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><img src="IMG/facebook-logo.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="IMG/instagram.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="IMG/twitter.png" alt="트위터"></a></li>
+                </ul>
+            </div>
+            <div class="fbottom">
+                <p>폰타나 이메일 문의 : FONTANA_KR@NAVER.COM</p>
+                <p>폰타나 고객지원실(제품, 판매처 문의): 080-996-7777 ( 평일 8:30-07:30)</p>
+                <p>Copyright ⓒ SEMPIO FOODS COMPANY. ALL RIGHTS RESERVED</p>
+            </div>
+        </footer>
+    </div>
+    <div class="topbutton">TOP</div>
+</body>
+</html>
